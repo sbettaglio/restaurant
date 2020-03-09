@@ -9,4 +9,70 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: repeating-radial-gradient(ellipse, red, green, blue);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 139, 120);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+}
+
+.navbar li a:hover {
+  background-color: darkslategrey;
+}
+
+.navbar a {
+  display: inline;
+  color: rgb(148, 11, 45);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+#home {
+  padding-top: 2em;
+  display: block;
+  text-align: center;
+}
+
+#about-us {
+  padding-top: 2em;
+  display: block;
+  text-align: center;
+}
+
+#locations {
+  padding-top: 2em;
+  display: block;
+  text-align: center;
+}
+
+#menu {
+  padding-top: 2em;
+  display: block;
+  text-align: center;
+}
+
+#events {
+  padding-top: 2em;
+  display: block;
+  text-align: center;
+}
+
+#hero {
+  padding-top: 2em;
+  display: block;
+  text-align: center;
 }
