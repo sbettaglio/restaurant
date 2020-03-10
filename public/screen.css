@@ -13,15 +13,19 @@ body {
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: rgb(0, 139, 120);
   position: fixed;
+  align-items: center;
+  background-color: rgb(0, 139, 120);
   top: 0;
   width: 100%;
+  padding: 0.05em;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar li {
-  float: left;
   list-style-type: none;
 }
 
